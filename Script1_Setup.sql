@@ -406,16 +406,16 @@ COMMIT;
 BEGIN
   DBMS_OUTPUT.PUT_LINE('*********** STEP 1 : CREATING ACCOUNTS ***********');
   create_account('Tech Mart (Shop)', 'CURRENT', 5000);   -- A/C 1001 = shop
-  create_account('Rahul Sharma',     'SAVINGS', 25000);
-  create_account('Priya Verma',      'CURRENT', 50000);
-  create_account('Amit Singh',       'SAVINGS',   500);   -- rejected: below minimum
-  create_account('Neha Gupta',       'SAVINGS', 10000);
+  create_account('Aditya Mangalam',     'SAVINGS', 25000);
+  create_account('Anushka',      'CURRENT', 50000);
+  create_account('Adarsh Raj',       'SAVINGS',   500);   -- rejected: below minimum
+  create_account('Harsh Raj',       'SAVINGS', 10000);
   DBMS_OUTPUT.PUT_LINE(' ');
   show_accounts;
   DBMS_OUTPUT.PUT_LINE(' ');
   DBMS_OUTPUT.PUT_LINE('*********** STEP 2 : PRODUCT DETAILS ***********');
   show_products;
   DBMS_OUTPUT.PUT_LINE(' ');
-  DBMS_OUTPUT.PUT_LINE('Setup complete. Now run SCRIPT 2 to place an order.');
+  DBMS_OUTPUT.PUT_LINE('Setup complete');
 END;
 /
