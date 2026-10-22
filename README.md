@@ -27,7 +27,7 @@ A PL/SQL mini project for the PL/SQL course. A shop and its customers share one 
 
 ## Sample Data
 - Shop account: **1001** (Tech Mart, cannot place orders)
-- Customers: **1002** Rahul Sharma, **1003** Priya Verma, **1004** Neha Gupta
+- Customers: **1002** Aditya Mangalam, **1003** Anushka, **1004** Harsh Raj
 - Products: **1** Laptop, **2** Wireless Mouse, **3** Keyboard, **4** Pen Drive 64GB, **5** Monitor 24 inch, **6** HDMI Cable
 
 ## Author
